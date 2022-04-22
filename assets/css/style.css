@@ -1,0 +1,38 @@
+:root {
+    --body: rgb(230, 239, 68);
+    --box: rgb(230, 239, 68);
+    --main: rgb(69, 74, 82); 
+    --width: 800px;
+}
+
+.horizontal_center {
+    text-align: center;
+}
+
+body {
+    background-color: var(--body);
+}
+
+.gifs {
+    background-color: var(--box);
+    text-align: center;
+    margin: auto;
+    width: var(--width);
+    overflow: hidden;
+}
+
+.gifs4 {
+    background-color: var(--box);
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.gif {
+    width: var(--width)/2;
+}
+
+.gif4 {
+    width: 25%;
+}
